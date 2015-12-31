@@ -30,10 +30,12 @@
         border: 1px solid rgba(0,0,0,0.1);
         height:100px;
     }
+
     .title
     {
-    	margin-top: 10px;
+    	margin-top: 8px;
     	color: white;
+
     }
     .btn
     {
@@ -42,7 +44,7 @@
     .login
     {
     	color: white;
-    	margin-top: 20px;
+    	margin-top: 15px;
     }
     
    .bar
@@ -73,6 +75,30 @@ a:hover
 {
 	margin-top:8px;
 }
-
+.icon
+{
+	margin-top: 15px;
+	margin-right: -200px;
+}
+.touch
+{
+	margin-right: 100px;
+	margin-top: 20px;
+}
+.carousel
+{
+	width: 600px;
+	height: auto;
+	margin: 0 auto;
+}
+.dropdown-menu li:not(:last-child)
+{
+   border-bottom: 1px solid black;
+}
+.dropdown-menu ul
+{
+	margin: 0;
+	padding: 0;
+}
 
     
