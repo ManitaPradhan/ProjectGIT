@@ -53,12 +53,26 @@
    }
    .navbar1
    {
-   	background-color: #0065AE;
+   	background-color: #027CD5;
    }
+a:hover
+{
+	color: red;
+}
+
+.panel-default>.panel-heading
+{
+	background-color: #444444;
+	color: white;
+}
+.copy
+{
+	margin-top:-20px;
+}
+.aboutus
+{
+	margin-top:8px;
+}
 
 
-   
-   
-    	
-   
     
