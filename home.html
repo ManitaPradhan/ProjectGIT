@@ -1,80 +1,170 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home page</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-</head>
+	<title>Home Page</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+
+<script src="jquery/index.jquery"></script>
+
 <body>
 
 <!-- first nevigation bar -->
-	
-	<nav class="navbar1 navbar-default">
-  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <a class="navbar-brand" href="#">
-	        <img src="images/comingsoon_banner.png" width="50px">
-	      </a>
-	      <div class="title pull-right">
-	      	  <h4><strong>Lugapasal</strong></h4>
-	      </div>
-	    </div>
-	    <button type="submit" class="btn btn-success pull-right">LOGIN NOW!</button>
+<div class="container"> 
+ <header>
+    <nav class="navbar1">
+       <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              <img src="img/p1.jpg" width="50px">
+            </a>
+            <div class="title pull-right">
+                <h4><strong>Lugapasal</strong></h4>
+            </div>
+          </div>
+          <a href="login.html" class="login pull-right">LOGIN
+          </a>
+          <p class="login pull-right">/</p>
+             
+          <a href="signup.html" class="login pull-right">SIGNUP</a>
+        </div>
+   </nav>
+ </header>
+
+ <!--second nevigation bar -->
+ <div>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+         <ul class="nav navbar-nav navbar-left">
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+             </li>
+         </ul>
+       <ul class="nav navbar-nav navbar-left">
+         <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+         </li>
+       </ul>
+       <ul class="nav navbar-nav navbar-left">
+         <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+         </li>
+        </ul>
+       <ul class="nav navbar-nav navbar-left">
+         <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+         </li>
+       </ul>
+      </div>
+    </nav>
+  </div>
+
+
+<div>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/slide1.jpg" alt="Slider Image 1">
+      <div class="carousel-caption">
+        Beautiful photo of Technology
+      </div>
     </div>
-</nav>
+    <div class="item">
+      <img src="img/slide2.jpg" alt="Slider Image 2">
+      <div class="carousel-caption">
+        Beautiful photo of Technology
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/slide3.png" alt="Slider Image 3">
+      <div class="carousel-caption">
+        Beautiful photo of Technology
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/slide4.jpg" alt="Slider Image 4">
+      <div class="carousel-caption">
+        Beautiful photo of Technology
+      </div>
+    </div>    
+  </div>
 
-<!--second nevigation bar -->
-
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-<ul class="nav navbar-nav navbar-left">
- <li class="dropdown">
-	   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-		<ul class="dropdown-menu">
-	      <li><a href="#">Action</a></li>
-		  <li><a href="#">Another action</a></li>
-	      <li><a href="#">Something else here</a></li>
-	    </ul>
- </li>
-</ul>
-<ul class="nav navbar-nav navbar-left">
- <li class="dropdown">
-	   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-		<ul class="dropdown-menu">
-	      <li><a href="#">Action</a></li>
-		  <li><a href="#">Another action</a></li>
-	      <li><a href="#">Something else here</a></li>
-	    </ul>
- </li>
-</ul>
-<ul class="nav navbar-nav navbar-left">
- <li class="dropdown">
-	   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-		<ul class="dropdown-menu">
-	      <li><a href="#">Action</a></li>
-		  <li><a href="#">Another action</a></li>
-	      <li><a href="#">Something else here</a></li>
-	    </ul>
- </li>
-</ul>
-<ul class="nav navbar-nav navbar-left">
- <li class="dropdown">
-	   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-		<ul class="dropdown-menu">
-	      <li><a href="#">Action</a></li>
-		  <li><a href="#">Another action</a></li>
-	      <li><a href="#">Something else here</a></li>
-	    </ul>
- </li>
-</ul>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
-</nav>
-<!-- second nevigationbar ends here! -->
+</div>
+<!-- Carousel Ends Here -->
+<div style="margin-top:10px"></div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Portfolio</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+	  <div class="col-xs-6 col-md-3">
+	    <a href="#" class="thumbnail">
+	      <img src="img/p1.jpg" alt="Portfolio 1">
+	    </a>
+	  </div>
+	  <div class="col-xs-6 col-md-3">
+	    <a href="#" class="thumbnail">
+	      <img src="img/p2.jpg" alt="Portfolio 1">
+	    </a>
+	  </div>
+	  <div class="col-xs-6 col-md-3">
+	    <a href="#" class="thumbnail">
+	      <img src="img/p3.jpg" alt="Portfolio 1">
+	    </a>
+	  </div>
+	 	<div class="col-xs-6 col-md-3">
+	    <a href="#" class="thumbnail">
+	      <img src="img/p1.jpg" alt="Portfolio 1">
+	    </a>
+	  </div>
+</div>
+  </div>
+</div>
 
+</div>
 
 </body>
 
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
-
 </html>
