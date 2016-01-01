@@ -57,6 +57,10 @@
    {
    	background-color: #027CD5;
    }
+   .navbar
+   {
+   	margin-top: 45px;
+   }
 a:hover
 {
 	color: red;
