@@ -59,12 +59,18 @@
    }
    .navbar
    {
-   	margin-top: 45px;
+   	margin-top: 60px;
    }
-a:hover
-{
-	color: red;
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: black;
+    
 }
+
 
 .panel-default>.panel-heading
 {

@@ -11,8 +11,8 @@
 <body>
 
 <!-- first nevigation bar -->
-<div class="container"> 
- <header>
+  
+ <div>
     <nav class="navbar1 navbar-fixed-top">
        <div class="container-fluid">
           <div class="navbar-header">
@@ -23,17 +23,25 @@
                 <h4><strong>Lugapasal</strong></h4>
             </div>
           </div>
-          <a href="login.html" class="login pull-right">LOGIN 
+          <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+          <li class="next">
+          <a href="login.html" class="login pull-right"><b>LOGIN </b>
           </a>
-          <p class="login pull-right">&nbsp | &nbsp</p>
-             
-          <a href="signup.html" class="login pull-right">SIGNUP</a>
+          </li>
+          
+           <li class="next">  
+          <a href="signup.html" class="login pull-right"><b>SIGNUP</b></a>
+          </li>
+          </ul>
+          </div>
         </div>
    </nav>
- </header>
+</div>
 
  <!--second nevigation bar -->
- <div>
+ 
+ <div class="container">
     <nav class="navbar navbar-default">
       <div class="container-fluid">
          <ul class="nav navbar-nav navbar-left">
@@ -87,9 +95,10 @@
       </div>
     </nav>
   </div>
+  
 
  <!-- carousel starts here -->
-
+<header>
  <div >
      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
@@ -176,6 +185,7 @@
       </div>
     </div>
   </div>
+   </header>
 
  <!-- pannel2 starts here -->
 
